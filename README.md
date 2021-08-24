@@ -1,8 +1,15 @@
 # sprint-2-back-end
 Repositório para a segunda sprint de Desenvolvimento de Sistemas do Senai Informática.
 
+  <div style="display: inline_block"><br>
+  <img align="center" alt="luiz-Csharp" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg">
+  </div>
+
 # Authors
 * **Luiz Felipe Vera Cruz**: @luizfelipeveracruz (https://github.com/luizfelipeveracruz)
+
+  
+
 
 ###
 
