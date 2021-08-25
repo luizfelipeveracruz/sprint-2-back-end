@@ -5,9 +5,18 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-    <Folder Include="Interfaces\" />
-    <Folder Include="Repositories\" />
+    <Compile Remove="Controllers\**" />
+    <Compile Remove="Interfaces\**" />
+    <Compile Remove="Repositories\**" />
+    <Content Remove="Controllers\**" />
+    <Content Remove="Interfaces\**" />
+    <Content Remove="Repositories\**" />
+    <EmbeddedResource Remove="Controllers\**" />
+    <EmbeddedResource Remove="Interfaces\**" />
+    <EmbeddedResource Remove="Repositories\**" />
+    <None Remove="Controllers\**" />
+    <None Remove="Interfaces\**" />
+    <None Remove="Repositories\**" />
   </ItemGroup>
 
 </Project>
