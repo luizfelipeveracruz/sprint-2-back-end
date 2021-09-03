@@ -7,39 +7,39 @@ using System.Threading.Tasks;
 namespace Rental_webAPI.Interfaces
 {
     /// <summary>
-    /// Interface responsável pelo repositório ClienteRepository
+    /// Interface responsável pelo repositório EmpresaRepository
     /// </summary>
-    interface IClienteRepository
+    interface IEmpresaRepository
     {
         // Estrutura de métodos da Interface
         // TipoRetorno NomeMetodo (TipoParametro NomeParametro);
-        // void Cadastrar(ClienteDomain novoCliente);
+        // void Cadastrar(EmpresaDomain novoEmpresa);
 
         /// <summary>
-        /// Retorna todos os clientes
+        /// Retorna todos as empresas
         /// </summary>
-        /// <returns>Uma lista de clientes</returns>
-        List<ClienteDomain> ListarTodos();
+        /// <returns>Uma lista de empresa</returns>
+        List<EmpresaDomain> ListarTodos();
 
         /// <summary>
-        /// Busca um cliente através do seu id
+        /// Busca uma empresa através do seu id
         /// </summary>
-        /// <param name="idCliente"=>id do cliente que será buscado</param>
+        /// <param name="idEmpresa"=>id do empresa que será buscado</param>
         /// <returns>Um objeto do tipo ClienteDomain que foi buscado</returns>
-        ClienteDomain BuscarPorId(int idCliente);
+        EmpresaDomain BuscarPorId(int idEmpresa);
 
         /// <summary>
         /// Cadastra um novo cliente
         /// </summary>
         /// <param name="novoCliente">Objeto novoCliente com os dados que serão cadastrados</param>
-        void Cadastrar(ClienteDomain novoCliente);
-        
+        void Cadastrar(EmpresaDomain novoCliente);
+
         /// <summary>
         /// Atualiza um cliente existente passando o id pelo corpo da requisição
         /// </summary>
         /// <param name="clienteAtualizado">Objeto clienteAtualizado com os novos dados</param>
         /// ex: http://localhost:5000/api/clientes
-        void AtualizarIdCorpo(ClienteDomain clienteAtualizado);
+        void AtualizarIdCorpo(EmpresaDomain clienteAtualizado);
 
         /// <summary>
         /// Atualiza um cliente existente passando o id pela URL da requisição
@@ -47,14 +47,13 @@ namespace Rental_webAPI.Interfaces
         /// <param name="idCliente">id do cliente que será atualizado</param>
         /// <param name="ClienteAtualizado">Objeto clienteAtualizado com os novos dados</param>
         /// ex: http://localhost:5000/api/cliente/4
-        void AtualizarIdUrl(int idGenero, ClienteDomain clienteAtualizado);
+        void AtualizarIdUrl(int idGenero, EmpresaDomain clienteAtualizado);
 
         /// <summary>
         /// Deleta um cliente
         /// </summary>
         /// <param name="idCliente">id do cliente que será deletado</param>
         void Deletar(int idCliente);
-
 
     }
 }
