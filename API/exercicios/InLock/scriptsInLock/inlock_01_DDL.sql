@@ -1,0 +1,39 @@
+CREATE DATABASE inLock_Games_Manha;
+GO
+
+USE inLock_Games_Manha;
+GO
+
+CREATE TABLE ESTUDIO(
+	idEstudio TINYINT PRIMARY KEY,
+	nomeEstudio VARCHAR (50)
+);
+
+
+CREATE TABLE JOGOS(
+	idJogo TINYINT PRIMARY KEY,
+	idEstudio TINYINT FOREIGN KEY REFERENCES ESTUDIO(idEstudio),
+	nomeJogo VARCHAR (30),
+	descrição VARCHAR (300),
+	dataLancamento DATETIME,
+	valor MONEY,
+);
+GO
+
+CREATE TABLE TIPOUSUARIOS(
+	idTipoUsuario TINYINT PRIMARY KEY,
+	titulo VARCHAR (30)
+);
+GO
+
+CREATE TABLE USUARIOS(
+	idUsuario TINYINT PRIMARY KEY,
+	idTipoUsuario TINYINT FOREIGN KEY REFERENCES TIPOUSUARIOS(idTipoUsuario),
+	email VARCHAR (40) UNIQUE NOT NULL,
+	senha VARCHAR (50) NOT NULL
+);
+GO
+
+
+
+
