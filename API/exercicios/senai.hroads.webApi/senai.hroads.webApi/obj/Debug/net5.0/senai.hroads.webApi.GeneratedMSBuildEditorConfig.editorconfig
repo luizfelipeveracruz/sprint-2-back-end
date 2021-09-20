@@ -1,0 +1,10 @@
+is_global = true
+build_property.TargetFramework = net5.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.PublishSingleFile = 
+build_property.IncludeAllContentForSelfExtract = 
+build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
+build_property.RootNamespace = senai.hroads.webApi
+build_property.ProjectDir = C:\Users\DEV\Desktop\Lucas Reis - Manha\Senai 2 Print - BackEnd\Exercicios\senai.hroads.webApi\senai.hroads.webApi\
