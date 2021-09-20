@@ -39,7 +39,7 @@ namespace Rental_webAPI.Interfaces
         /// </summary>
         /// <param name="clienteAtualizado">Objeto clienteAtualizado com os novos dados</param>
         /// ex: http://localhost:5000/api/clientes
-        void AtualizarIdCorpo(ClienteDomain clienteAtualizado);
+        //void AtualizarIdCorpo(ClienteDomain clienteAtualizado);
 
         /// <summary>
         /// Atualiza um cliente existente passando o id pela URL da requisição
@@ -47,7 +47,7 @@ namespace Rental_webAPI.Interfaces
         /// <param name="idCliente">id do cliente que será atualizado</param>
         /// <param name="ClienteAtualizado">Objeto clienteAtualizado com os novos dados</param>
         /// ex: http://localhost:5000/api/cliente/4
-        void AtualizarIdUrl(int idGenero, ClienteDomain clienteAtualizado);
+        void AtualizarIdUrl(int idCliente, ClienteDomain clienteAtualizado);
 
         /// <summary>
         /// Deleta um cliente

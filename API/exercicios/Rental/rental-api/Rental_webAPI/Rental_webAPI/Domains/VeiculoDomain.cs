@@ -14,5 +14,9 @@ namespace Rental_webAPI.Domains
         public int idEmpresa { get; set; }
         public int idModelo { get; set; }
         public string PLACA { get; set; }
+
+        public EmpresaDomain Empresa { get; set; }
+        public ModeloDomain Modelo { get; set; }
+
     }
 }

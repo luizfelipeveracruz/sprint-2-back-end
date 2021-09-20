@@ -14,5 +14,6 @@ namespace Rental_webAPI.Domains
         public string primeiroNome { get; set; }
         public string sobreNome { get; set; }
 
+        public string CPF { get; set; }
     }
 }

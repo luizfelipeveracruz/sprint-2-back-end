@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = Rental_webAPI
-build_property.ProjectDir = C:\Users\39517928840\Desktop\sprint-2-back-end\API\exercicios\Rental\rental-api\Rental_webAPI\Rental_webAPI\
+build_property.ProjectDir = C:\Users\lipec\Desktop\sprint-2-back-end\API\exercicios\Rental\rental-api\Rental_webAPI\Rental_webAPI\

@@ -49,7 +49,7 @@ namespace Rental_webAPI.Interfaces
         /// <param name="idAluguel">id do aluguel que será atualizado</param>
         /// <param name="aluguelAtualizado">Objeto aluguelAtualizado com os novos dados</param>
         /// ex: http://localhost:5000/api/cliente/4
-        void AtualizarIdUrl(int idAluguel, AluguelDomain aluguelAtualizado);
+        // void AtualizarIdUrl(int idAluguel, AluguelDomain aluguelAtualizado);
 
         /// <summary>
         /// Deleta um aluguel

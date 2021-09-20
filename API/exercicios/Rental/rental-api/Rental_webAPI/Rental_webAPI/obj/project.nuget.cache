@@ -1,8 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "f92Z2qGMfHDX5XsPQixntIGZSy23Gnq5hnz+ZWUh8JvBcBRK/cChAKflHvkA5JjQazS6xMaP3Xmy2Z0R8WME5w==",
+  "dgSpecHash": "09CWU/AWlp1Y4Z4IW2GwEFP1Ke1d1l/q8WH+qz2q2CmmfOWTexUIAA5dEYMiCR39JE2BGPBHRd13VjqnZAow1A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\39517928840\\Desktop\\sprint-2-back-end\\API\\exercicios\\Rental\\rental-api\\Rental_webAPI\\Rental_webAPI\\Rental_webAPI.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\lipec\\Desktop\\sprint-2-back-end\\API\\exercicios\\Rental\\rental-api\\Rental_webAPI\\Rental_webAPI\\Rental_webAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lipec\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\lipec\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "C:\\Users\\lipec\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
+    "C:\\Users\\lipec\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\lipec\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\lipec\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\lipec\\.nuget\\packages\\system.data.sqlclient\\4.8.3\\system.data.sqlclient.4.8.3.nupkg.sha512",
+    "C:\\Users\\lipec\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "C:\\Users\\lipec\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

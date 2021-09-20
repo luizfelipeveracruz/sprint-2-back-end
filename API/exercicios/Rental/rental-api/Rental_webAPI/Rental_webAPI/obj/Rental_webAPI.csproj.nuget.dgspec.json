@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\39517928840\\Desktop\\sprint-2-back-end\\API\\exercicios\\Rental\\rental-api\\Rental_webAPI\\Rental_webAPI\\Rental_webAPI.csproj": {}
+    "C:\\Users\\lipec\\Desktop\\sprint-2-back-end\\API\\exercicios\\Rental\\rental-api\\Rental_webAPI\\Rental_webAPI\\Rental_webAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\39517928840\\Desktop\\sprint-2-back-end\\API\\exercicios\\Rental\\rental-api\\Rental_webAPI\\Rental_webAPI\\Rental_webAPI.csproj": {
+    "C:\\Users\\lipec\\Desktop\\sprint-2-back-end\\API\\exercicios\\Rental\\rental-api\\Rental_webAPI\\Rental_webAPI\\Rental_webAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\39517928840\\Desktop\\sprint-2-back-end\\API\\exercicios\\Rental\\rental-api\\Rental_webAPI\\Rental_webAPI\\Rental_webAPI.csproj",
+        "projectUniqueName": "C:\\Users\\lipec\\Desktop\\sprint-2-back-end\\API\\exercicios\\Rental\\rental-api\\Rental_webAPI\\Rental_webAPI\\Rental_webAPI.csproj",
         "projectName": "Rental_webAPI",
-        "projectPath": "C:\\Users\\39517928840\\Desktop\\sprint-2-back-end\\API\\exercicios\\Rental\\rental-api\\Rental_webAPI\\Rental_webAPI\\Rental_webAPI.csproj",
-        "packagesPath": "C:\\Users\\39517928840\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\39517928840\\Desktop\\sprint-2-back-end\\API\\exercicios\\Rental\\rental-api\\Rental_webAPI\\Rental_webAPI\\obj\\",
+        "projectPath": "C:\\Users\\lipec\\Desktop\\sprint-2-back-end\\API\\exercicios\\Rental\\rental-api\\Rental_webAPI\\Rental_webAPI\\Rental_webAPI.csproj",
+        "packagesPath": "C:\\Users\\lipec\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lipec\\Desktop\\sprint-2-back-end\\API\\exercicios\\Rental\\rental-api\\Rental_webAPI\\Rental_webAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\39517928840\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lipec\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,6 +39,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

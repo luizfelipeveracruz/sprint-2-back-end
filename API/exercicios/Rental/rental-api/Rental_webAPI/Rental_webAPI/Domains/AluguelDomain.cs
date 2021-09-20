@@ -13,6 +13,10 @@ namespace Rental_webAPI.Domains
         public int idAluguel { get; set; }
         public int idVeiculo { get; set; }
         public int idCliente { get; set; }
+
+        public VeiculoDomain Veiculo { get; set; }
+        public ClienteDomain Cliente { get; set; }
+
         public DateTime DataRetirada { get; set; }
         public DateTime DataDevolucao { get; set; }
     }
